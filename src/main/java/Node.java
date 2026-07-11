@@ -1,13 +1,13 @@
 public class Node {
 
     int col;
-    double val;
+    double value; // don't change this!! math library works with doubles
     Node next;
 
     // constructor
-    public Node(int col, float val) {
+    public Node(int col, double val) {
         this.col = col;
-        this.val = val;
+        value = val;
         next = null;
     }
 }
