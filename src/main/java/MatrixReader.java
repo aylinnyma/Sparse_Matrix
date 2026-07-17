@@ -5,7 +5,7 @@ import java.io.IOException;
 public class MatrixReader {
 
     // since this method id not going to be reused multiple times,
-    // we can leave it as static, so no 'new' instances need to be declared
+    // we can leave it as static (no 'new' instances need to be declared)
     public static SparseMatrix createMatrix(String filename) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(filename));
         String line;
