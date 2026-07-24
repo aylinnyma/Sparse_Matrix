@@ -1,4 +1,5 @@
 public class Determinant {
+    // making them static means i can call this method directly without doing new Determinant() first
     public static double calculate(SparseMatrix matrix, int[]activeRows, int[]activeCols){
         // simplest base case
         if (activeRows.length == 1) {

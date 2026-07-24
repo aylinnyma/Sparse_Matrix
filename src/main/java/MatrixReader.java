@@ -15,6 +15,7 @@ public class MatrixReader {
         while ((line = br.readLine()) != null) {
             // each line is a String, so we need to split it
             String[] parts = line.split(" ");
+
             // parts[0], parts[1], parts[2] are now the individual values as Strings
             if (firstLine) {
                 firstLine = false;

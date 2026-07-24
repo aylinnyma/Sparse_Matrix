@@ -2,7 +2,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        SparseMatrix matrix= MatrixReader.createMatrix("matrix.txt");
+        SparseMatrix matrix= MatrixReader.createMatrix("4x4.txt");
 
         // build initial arrays
         int[] activeRows = new int[matrix.getDimension()];
